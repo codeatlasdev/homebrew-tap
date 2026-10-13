@@ -1,7 +1,6 @@
 class Codeatlas < Formula
   desc "CLI for the public CodeAtlas API (services catalog)"
   homepage "https://codeatlas.com.br"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
