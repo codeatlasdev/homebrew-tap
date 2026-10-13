@@ -7,22 +7,22 @@ class Codeatlas < Formula
   on_macos do
     on_arm do
       url "https://github.com/codeatlasdev/codeatlas-sdk-js/releases/download/v#{version}/codeatlas-#{version}-darwin-arm64.tar.gz"
-      sha256 "8e7a5f1950de06a3e4592a2e3a90531812bb575d60f69b3eb45292abedc429f6"
+      sha256 "09d15c10fd52e47f83b05de285f1687d2e89c8722392ec818a4c08deb99eeb1a"
     end
     on_intel do
       url "https://github.com/codeatlasdev/codeatlas-sdk-js/releases/download/v#{version}/codeatlas-#{version}-darwin-x64.tar.gz"
-      sha256 "f92bd210cb83085b1f0a6160c5345e191b20f80b690c85aa304ef31e25290fe7"
+      sha256 "2c4407a92e0504accccb29be8161bdc1d3f895d4ff0f29083a6a59d9dcbb0b4a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/codeatlasdev/codeatlas-sdk-js/releases/download/v#{version}/codeatlas-#{version}-linux-arm64.tar.gz"
-      sha256 "97751412bd0a9eb6c3a474f167a4162b7bc40db1ac57c68f5bcceeb11fb69d50"
+      sha256 "6e4a31a8a2b21be477d972849281a29a450d5be8094c47175ffc8b0d5526154f"
     end
     on_intel do
       url "https://github.com/codeatlasdev/codeatlas-sdk-js/releases/download/v#{version}/codeatlas-#{version}-linux-x64.tar.gz"
-      sha256 "d051153ebf870dd24c9fb8cbfcb7ea9aaaca0cca727ce5fd49f9d84dc343961e"
+      sha256 "e869a20c53facf42ec1eb698168687d232fc1b9783668defb40bbeb121455ee8"
     end
   end
 
